@@ -20,6 +20,23 @@ The tool is for informational purpose only, which can **NOT** be considered as f
   - `alpaca-py`
   - `apify-client`
   - `google-ai-generative`
+ 
+- Token file (`tokens.json`) structure:
+```
+{
+    "discord_webhook_urls": [
+        "https://discord.com/api/webhooks/webhook1",
+        "https://discord.com/api/webhooks/webhook2"
+    ],
+    "alpaca": {
+        "end_point": "https://paper-api.alpaca.markets/v2",
+        "key": "alpaca_api_key",
+        "secret": "alpaca_secret_key"
+    },
+    "google_gemini": "gemini_api_key",
+    "apify_token": "apify_token"
+}
+```
 
 ## Credits
 
